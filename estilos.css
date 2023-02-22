@@ -1,0 +1,132 @@
+body{
+    font-family: 'Kalam', cursive;
+}
+
+body{
+    background: #9dd7f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+ .contenedor{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.5)
+}
+
+.contenedor .lado-izquierdo{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+
+.Foto_de_perfil {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}    
+
+.Foto_de_perfil .Foto{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+    
+}
+
+.Foto_de_perfil .Foto img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Foto_de_perfil h2 {
+    color: #fff;
+    font-size: 1.8em;
+    margin-top:  20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+
+}
+
+.contactos-personales{
+    color: #fff;
+    font-size: 1em;
+    margin-top:  20px;
+    text-transform: uppercase;
+    text-align: start;
+    
+}
+.contactos-personales h3{
+    color: rgb(183, 214, 240);
+    font-size: 1.5em;
+    text-align: left;
+    
+}
+.contactos-personales img {
+    display: block;
+    margin: auto;
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+}
+.contactos-personales p{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+.reses {
+    color: #fff;
+    font-size: 1em;
+    margin-top:  20px;
+    text-transform: uppercase;
+    text-align: start;
+}
+.redes h3 {
+    color: rgb(183, 214, 240);
+    font-size: 1.8em;
+    text-align: left;
+
+    
+}
+.redes img {
+    display: block;
+    margin: auto;
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+}
+.redes p{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+
+.contenedor .lado-derechol{
+    position: relative;
+    background: #4ee7db;
+    padding: 40px;
+}
